@@ -12,7 +12,7 @@
 		<meta property="og:url" content="https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment/model" />
 		<meta property="og:image" content="https://huggingface.co/front/thumbnails/v2-2.png" />
 
-		<link rel="stylesheet" href="/front/build/style.39b8b569e.css" />
+		<link rel="stylesheet" href="/front/build/style.63bead132.css" />
 
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
@@ -110,8 +110,17 @@
 					<li><a class="hover:underline" href="/join/discord">Discord </a></li></ul></div></div></div></footer></div>
 
 		<script>
-			import("/front/build/index.39b8b569e.js");
-			window.moonSha = ".39b8b569e";
+			import("/front/build/index.63bead132.js");
+			window.moonSha = ".63bead132";
+		</script>
+
+		<script>
+			if (["hf.co", "huggingface.co"].includes(window.location.hostname)) {
+				const script = document.createElement("script");
+				script.src = "https://js.stripe.com/v3/";
+				script.async = true;
+				document.head.appendChild(script);
+			}
 		</script>
 
 		<script>
